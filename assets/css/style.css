@@ -79,6 +79,59 @@ header{
   padding: 70px 7px;
 }
 
+.grid-figure{
+  width: 30%;
+  display: inline-block;
+  margin: 40px 10px 50px;
+}
+
+.grid-figure img{ width: 100%;}
+
+.grid-figure img:hover { opacity: 0.5;}
+
+.grid-figure figcaption{
+  margin-top: 24px;
+  text-align: center;
+  padding: 0px 10px;
+  font-weight: bold;
+}
+
+/** Modal **/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 30px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(61, 209, 160, 0.9);
+    text-align: center;
+}
+
+.modal-image {
+    width: 55%;
+    border: 10px solid white;
+    box-shadow: 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+.modal-close {
+    position: absolute;
+    top: 20px;
+    right: 24%;
+    color: #3dd1a0;
+    text-shadow: 1px 1px rgba(8, 8, 8, 0.15);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+    color: #fff;
+    cursor: pointer;
+}
+
 footer{
   text-align: center;
   height: 70px;
